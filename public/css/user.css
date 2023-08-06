@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+  --form-input: #9C9C9C;
+}
+
+.form-input {
+  background-color: white;
+  color: var(--form-input);
+  box-shadow: 0px 3px 10px #AEAEAE28;
+  border-radius: 10px;
+  padding: 6% 3%;
+}
+
+.form-submit {
+  background-color: #5D180B;
+  color: white;
+  border-radius: 10px;
+  padding: 3% 0;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+.login-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.reveal {
+  border-radius: 0 10px 10px 0;
+}
+
+#register-customer {
+  padding: 8% 0;
+  width: 100%;
+}
+
+#register-customer .card {
+  background-color: rgba(255,255,255,0.9);
+  backdrop-filter: blur(30px);
+  backdrop-filter: brightness(15%);
+  padding: 5%;
+  border: none;
+  box-shadow: 0px 3px 10px #07070729;
+  border-radius: 10px;
+}
+
+label {
+  font-weight: 500 !important;
+}
